@@ -1,0 +1,147 @@
+.faq-container{
+ padding: 50px 0px;
+ background: #fff;
+}
+
+.faq-box i {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    width: 94px;
+    height: 94px;
+    line-height: 94px;
+    font-size: 38px;
+    border: 1px solid #fe9900;
+    color: #fe9900;
+    border-radius: 100%;
+    z-index: 11;
+    transition: 0.3s ease-in-out;
+    transform: translate3d(0,0,0) scale(1);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.faq-box:hover i {
+    transform: translate3d(0,0,0) scale(1.21);
+}
+
+.faq-box {
+    text-align: center;
+    padding: 20px;
+}
+
+.faq-box p {
+    font-size: 16px;
+    line-height: 1.9;
+    padding-top: 25px;
+    margin-bottom: 30px;
+}
+
+.faq-btn {
+    background: #fe9900;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 12px 20px;
+    color: #fff;
+    font-size: 18px;
+    max-width: 200px;
+    width: 100%;
+}
+
+.faq-btn:hover, .faq-btn:focus {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+
+.faqs-list h2 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #333;
+    padding-bottom: 30px;
+}
+
+.faqs-list {
+    padding: 50px 0px;
+    background: #f7f7f7;
+}
+
+
+.accordion__item .accordion__button {
+    background: #202020;
+    transition: all 0.5s;
+    color: #c1c1c7;
+    font-size: 15px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.accordion__item {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.accordion {
+    border: none!important;
+}
+
+.accordion__item .accordion__button:focus{
+    outline: none;
+}
+
+.accordion__item .accordion__button:hover {
+    background-color: #fe9900;
+    color: #fff;
+}
+
+.accordion__panel {
+    background: #fff;
+    position: relative;
+    border-top: 0;
+    box-shadow: 1px 0px 10px #00000014;
+}
+
+.accordion__panel p {
+    margin: 0;
+    color: #333;
+    line-height: 1.9;
+    position: relative;
+    z-index: 9;
+    font-size: 14px;
+}
+
+.accordion__button:before {
+    position: absolute;
+    right: 5px;
+    top: 25px;
+    z-index: 9;
+    opacity: .5;
+}
+
+
+.accordion__item .accordion__button:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right:0;
+    opacity: .5;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.accordion__item .accordion__button span {
+    position: relative;
+    z-index: 9;
+}
+
+.accordion__item .accordion__button:hover:after {
+    opacity: 1;
+}
+
+.accordion__button:hover:before{
+    opacity: 1;
+}

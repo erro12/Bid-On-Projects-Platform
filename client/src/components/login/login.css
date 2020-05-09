@@ -1,0 +1,92 @@
+.login-section {
+    background: #f0f0f0;
+    padding: 100px 0px;
+}
+
+.login-form {
+    background: #fff;
+    padding: 80px 30px;
+    max-width: 550px;
+    margin: 0px auto;
+    border-radius: 4px;
+    box-shadow: 1px 0px 10px #00000014;
+}
+
+.login-form h1 {
+    font-size: 35px;
+    color: #333;
+    text-align: center;
+    font-weight: 600;
+}
+
+.login-form h1 span {
+    color: #fe9900;
+}
+
+.login-box {
+    padding-top: 50px;
+    max-width: 400px;
+    margin: 0px auto;
+}
+
+.form-group .form-control {
+    height: auto;
+    padding: 15px 20px;
+}
+
+.form-label {
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+.form-group {
+    margin-bottom: 35px;
+}
+
+.login-btn.btn.btn-primary {
+    background-color: #fe9900;
+    border-color: #fe9900;
+    padding: 12px 40px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.login-button {
+    text-align: center;
+}
+
+.login-box p {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 13px;
+}
+
+.signup-link {
+    color: #fe9900;
+    text-decoration: underline;
+}
+
+.signup-link:hover{
+    color: #333;
+}
+
+.forget-password{
+    text-align: right;
+}
+
+.forget-link {
+    color: #fe9900;
+    font-size: 13px;
+}
+
+.forget-link:hover {
+    color: #333;
+    text-decoration:none;
+}
+
+.forget-password {
+    padding-bottom: 30px;
+    margin-top: -10px;
+}

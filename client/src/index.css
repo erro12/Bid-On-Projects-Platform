@@ -1,0 +1,25 @@
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css";
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif!important;
+}
+
+
+@media (min-width: 992px){
+  .container {
+    max-width: 1210px;
+  }
+}
+
+
+@media (min-width: 1200px){
+  .container {
+      max-width: 1210px;
+  }
+}
+
+

@@ -1,0 +1,9 @@
+{
+    "script"      : "npm start",
+    "watch_options": {
+      "followSymlinks": false
+    },
+    "name": "server",
+"watch":["./"],
+"ignore_watch":["node_modules","public"]
+  }

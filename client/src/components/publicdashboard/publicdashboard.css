@@ -1,0 +1,82 @@
+.page-title {
+    background: #202020;
+    padding: 80px 0px;
+    text-align: center;
+}
+
+.page-title h2 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.page-title span {
+    color: #fff;
+    font-size: 18px;
+}
+
+.dashboard-section .page-title span, .dashboard-section .page-title h2 {
+    text-align: center;
+}
+
+.dashboard-container{
+    background: #f7f7f7;
+    padding: 50px 0px;
+}
+
+
+.recent-project-section {
+    background: #fff;
+    padding: 30px;
+    box-shadow: 1px 0px 10px #00000014;
+}
+
+
+.summary-section {
+    background: #fff;
+    box-shadow: 1px 0px 10px #00000014;
+}
+
+
+.recent-project-section h2 {
+    font-size: 25px;
+    color: #333;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.highlight-profile{
+    background: #fe9900;
+    padding: 30px;
+}
+
+.highlight-profile h2{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+.highlight-profile span{
+    color: #fff;
+    font-size: 16px;
+    
+}
+
+.highlight-content {
+    padding: 30px;
+}
+
+.dashboard-widget {
+    padding-bottom: 30px;
+}
+
+.dashboard-widget h3 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.dashboard-widget p {
+    font-size: 16px;
+}

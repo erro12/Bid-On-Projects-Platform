@@ -1,0 +1,248 @@
+i:hover {
+  cursor: pointer;
+}
+
+.pagination {
+  display: inline-block;
+  position: relative;
+}
+
+.pagination i {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #ddd;
+}
+
+.pagination .badge {
+  position: absolute;
+  top: -13px;
+  right: -15px;
+  padding: 3px 2px;
+  border-radius: 50%;
+  background: orange;
+  color: white;
+  font-size: 10px;
+  font-weight: 100;
+  width: 20px;
+  height: 20px;
+  line-height: 15px;
+}
+
+.form-inline .pagination i {
+  border: 1px solid #00000026;
+  width: 35px;
+  height: 35px;
+  padding: 0 8px;
+  line-height: 35px;
+  font-size: 18px;
+  border-radius: 100px;
+}
+
+.form-inline .pagination {
+  margin: 0;
+}
+
+.form-inline .pagination:hover,
+.form-inline .pagination:focus {
+  text-decoration: none;
+}
+.form-inline .pagination i:hover:not(.active) {
+  background-color: #fff;
+}
+
+.changeCursor {
+  cursor: pointer;
+}
+
+.header {
+  background-color: #fff;
+}
+
+.header .navbar {
+  background-color: #fff;
+  margin-bottom: 0px;
+  padding: 18px 0px;
+}
+
+.navbar-brand {
+  height: auto;
+  padding: 0;
+  margin-right: 50px;
+}
+
+.header .navbar div#basic-navbar-nav .navbar-nav {
+  margin: 0;
+  background-color: #fff;
+}
+
+.header .navbar div#basic-navbar-nav .navbar-nav a {
+  font-size: 14px;
+  padding: 10px 15px;
+  font-weight: 500;
+  color: #000;
+  text-align: center;
+  margin: 0px 10px;
+  transition: all 0.5s;
+}
+
+.header .navbar div#basic-navbar-nav .navbar-nav a.active {
+  background-color: #fe9900;
+  color: #fff;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.header .navbar div#basic-navbar-nav .navbar-nav a:hover {
+  background-color: #fe9900;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.header .navbar div#basic-navbar-nav .employe-button {
+  background-color: #f0f0f0;
+  border-color: #f0f0f0;
+  margin-right: 10px;
+  font-size: 13px;
+  color: #000;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.header .navbar div#basic-navbar-nav .employe-button .fa {
+  margin-right: 5px;
+}
+
+.header .navbar div#basic-navbar-nav .employe-button:hover,
+.header .navbar div#basic-navbar-nav .employe-button:focus,
+.header .navbar div#basic-navbar-nav .employe-button:active {
+  background-color: #fe9900;
+  border-color: #fe9900;
+  box-shadow: none;
+  color: #fff;
+}
+
+.header .navbar div#basic-navbar-nav .employe-button.active-btn {
+  background-color: #fe9900;
+  border-color: #fe9900;
+  box-shadow: none;
+  color: #fff;
+}
+
+.p-pic {
+  max-width: 40px;
+  height: 40px;
+}
+
+.p-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.my-profile-menu {
+  display: flex;
+  margin-left: 30px;
+  position: relative;
+}
+
+.p-name {
+  padding-left: 10px;
+  position: relative;
+}
+
+.p-name h5 {
+  font-weight: 600;
+}
+
+.my-profile-menu .dropdown {
+  position: relative;
+  display: inline-block !important;
+  vertical-align: middle;
+}
+
+.my-profile-menu .dropdown button:hover {
+  background: transparent;
+  border-color: transparent;
+}
+
+.my-profile-menu .dropdown button:focus {
+  background: transparent;
+  border-color: transparent;
+  outline: none;
+  box-shadow: none;
+}
+
+/***********************************************/
+
+/**** Media Query *****/
+
+/***********************************************/
+
+@media screen and (max-width: 991px) {
+  .navbar-expand-lg .navbar-toggler {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 30px;
+  }
+  .header .navbar {
+    justify-content: flex-start;
+  }
+  .navbar-collapse.collapse {
+    display: block !important;
+  }
+  .navbar-collapse .navbar-nav {
+    transform: translateX(-300px);
+    transition: all 0.5s;
+  }
+  .navbar-collapse.collapse .navbar-nav {
+    display: block !important;
+    position: fixed;
+    background: #333;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 90;
+    width: 300px;
+    flex-wrap: wrap;
+    transform: translateX(-300px);
+    transition: all 0.5s;
+  }
+  .header .navbar div#basic-navbar-nav {
+    height: 0px !important;
+  }
+  .navbar-collapse.collapse.show .navbar-nav {
+    transform: translateX(0px);
+  }
+  .header .navbar div#basic-navbar-nav .form-inline {
+    display: none;
+  }
+  .header .navbar div#basic-navbar-nav .navbar-nav a {
+    width: 100%;
+    text-align: left;
+    border-top: 1px solid #ddd;
+    padding: 13px 15px;
+    margin: 0;
+  }
+  .header .navbar div#basic-navbar-nav .form-inline {
+    width: 100%;
+    float: left;
+  }
+  .header .navbar div#basic-navbar-nav {
+    z-index: 99;
+    background-color: #fff;
+    height: 0px !important;
+  }
+  .header .navbar div#basic-navbar-nav .navbar-nav a.active {
+    border-radius: 0;
+  }
+  .header .navbar div#basic-navbar-nav .navbar-nav a:hover {
+    border-radius: 0px;
+  }
+}

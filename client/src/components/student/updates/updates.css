@@ -1,0 +1,11 @@
+.pagination-container {
+    text-align: right;
+}
+
+.pagination-container .pagination {
+    justify-content: flex-end;
+}
+
+.pagination-container .pagination li span {
+    margin-right: 0;
+}

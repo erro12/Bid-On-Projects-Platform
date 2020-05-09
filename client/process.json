@@ -1,0 +1,7 @@
+{
+    "script"      : "npm start",
+    "watch_options": {
+      "followSymlinks": false
+    },
+    "name": "client"
+  }

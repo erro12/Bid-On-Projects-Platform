@@ -1,0 +1,78 @@
+@import "../../assets/variables.scss";
+.header{
+    background-color: $white-bag;
+    height:90px;
+    .navbar{
+        background-color: $white-bag;
+        margin-bottom: 0px;
+        height:90px;
+        div#basic-navbar-nav{
+            height: 0px !important;
+            @media screen and (max-width:$mobile){
+                z-index: 99;
+                background-color: rgb(255, 255, 255);
+                height: 0px !important;
+            }
+            .navbar-nav {
+                margin: 0;
+                background-color: #fff;
+                @media screen and (max-width:$mobile){
+                    margin: 0 !important;                    
+                } 
+                a{
+                    font-size: $menu-font-size;
+                    padding: 5px 15px;
+                    font-family: $basic-font;
+                    font-weight: 600;
+                    color: #000;  
+                    width: 150px;
+                    text-align: center;  
+                    
+                    @media screen and (max-width:$mobile){
+                        width: 100%;
+                        text-align: left;
+                        border-top: 1px solid #ddd;
+                        padding: 13px 15px;                    } 
+                                     
+                }
+                a.active {
+                    background-color: $primery-color;
+                    color:$haf-color;
+                    border-radius:4px;
+                }
+            }
+            .form-inline {
+                @media screen and (max-width:$mobile){
+                    display: block;
+                    width: 100%;
+                    float: left;
+                }
+            }
+            .employe-button {
+                background-color: $secondry-color;
+                border-color: $secondry-color;
+                margin-right: 10px;
+                font-size: $menu-font-size;
+                color:$black-color;
+                padding: 5px 15px;
+                    .fa{
+                        margin-right: 5px;
+                    }
+                
+                &:hover, &:focus, &:active{                    
+                        background-color: #26ae61;
+                        border-color: #26ae61;
+                        box-shadow: none;
+                        color:$haf-color;                    
+                }
+                a {
+                    color:#000;
+                    text-decoration: none;
+                    &:hover{
+                        color:#fff;
+                    }
+                }
+            }
+        }
+    }
+}

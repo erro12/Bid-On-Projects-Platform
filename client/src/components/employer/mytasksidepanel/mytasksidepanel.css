@@ -1,0 +1,66 @@
+
+.dashboard-nav {
+    display: block;
+    padding-bottom: 30px;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,.1);
+    z-index: 99;
+    background: #fff;
+    position: absolute;
+    min-height: 100vh;
+    overflow: hidden;
+    min-width: 260px;
+    max-width: 260px;
+}
+
+.dashboard-nav-inner {
+    max-height: 900px;
+    width: calc(100% + 17px);
+    overflow-y: scroll;
+    position: relative;
+    display: block;
+    padding: 10px 0 25px 0;
+}
+
+.dashboard-nav ul:before {
+    content: attr(data-submenu-title);
+    padding: 0 35px;
+    margin-bottom: 5px;
+    display: block;
+    color: #333;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.dashboard-nav ul:first-child {
+    margin: 30px 0 0 0;
+    list-style: none;
+    padding: 0;
+}
+
+.dashboard-nav ul li {
+    display: block;
+    transition: 0.3s;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.dashboard-nav ul li a {
+    color: #555;
+    display: block;
+    padding: 10px 32px;
+    transition: 0.3s;
+    cursor: pointer;
+    font-weight: 400;
+    position: relative;
+    text-decoration: none;
+}
+
+.dashboard-nav ul li a.link-active {
+    background: #f7f7f7;
+    color: #fe9900;
+    border-left: 3px solid #fe9900;
+}
+
+.dashboard-nav ul li a:hover {
+    color: #fe9900;
+}

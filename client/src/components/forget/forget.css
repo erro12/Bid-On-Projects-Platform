@@ -1,0 +1,153 @@
+.forget-section {
+    background-color: #f7f7f7;
+    padding: 100px 0px;
+}
+
+.forget-form {
+    background: #fff;
+    padding: 80px 30px;
+    max-width: 550px;
+    margin: 0px auto;
+    border-radius: 4px;
+    box-shadow: 1px 0px 10px #00000014;
+}
+
+.forget-form h1 {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    color: #333333;
+}
+
+.forget-form h1 span {
+    color: #fe9900;
+}
+
+.forget-form .rigister-tab {
+    margin-top: 40px;
+}
+
+.forget-form .rigister-tab p {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.forget-form .rigister-tab .nav-tabs {
+    max-width: 50%;
+    margin: 0 auto;
+    border: none;
+    margin-top: 25px;
+}
+
+.forget-form .rigister-tab .nav-tabs a {
+    width: 50%;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #484746;
+}
+
+.forget-form .rigister-tab .nav-tabs a.active {
+    background-color: #fe9900 !important;
+    color: #fff !important;
+}
+
+.forget-form .rigister-tab .tab-content {
+    margin-top: 35px;
+}
+
+.forget-form .rigister-tab .tab-content .form-group {
+    margin-bottom: 3rem;
+}
+
+.forget-form .rigister-tab .tab-content .form-group .form-label {
+    font-size: 12px;
+}
+
+.forget-form .rigister-tab .tab-content .form-group .form-control {
+    height: 40px;
+}
+
+.forget-form .rigister-tab .tab-content .form-group .form-control:focus {
+    box-shadow: none;
+    border-color: #fe9900;
+}
+
+.forget-form .rigister-tab .tab-content .dis-show {
+    display: flex;
+}
+
+.forget-form .rigister-tab .tab-content .dis-show .form-label {
+    margin-left: 9px;
+    font-weight: 400;
+}
+
+.forget-form .rigister-tab .tab-content .dis-show .form-label span {
+    color: #fe9900;
+}
+
+.forget-form .rigister-tab .tab-content .create-button {
+    text-align: center;
+}
+
+.forget-form .rigister-tab .tab-content .create-button button {
+    background-color: #fe9900;
+    border-color: #fe9900;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px 15px;
+}
+
+.forget-form .rigister-tab .tab-content .create-button button:focus {
+    box-shadow: none;
+}
+
+.form-group .form-control {
+    height: 40px;
+    font-size: 14px;
+    padding: 5px 15px;
+}
+
+.forget-form p {
+    text-align: center;
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+
+.forget-box {
+    max-width: 400px;
+    margin: 0px auto;
+}
+
+.reset-btn {
+    background-color: #fe9900;
+    border-color: #fe9900;
+    padding: 12px 40px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 4px;
+    margin: 0px auto;
+    display: block;
+}
+
+.reset-box {
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active {
+    background-color: #fe9900;
+    border-color: #fe9900;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #fe9900;
+    border-color: #fe9900;
+}

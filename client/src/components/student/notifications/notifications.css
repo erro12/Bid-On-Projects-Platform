@@ -1,0 +1,47 @@
+i:hover {
+  cursor: pointer;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination i {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+}
+
+.pagination i.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.pagination i.refresh {
+  float: right
+}
+
+
+.pagination i:hover:not(.active) {background-color: #ddd;}
+
+
+.table th, .table td {
+  text-transform: capitalize;
+  padding: 15px 10px;
+}
+
+.table th {
+  font-size: 14px;
+}
+
+.table>tbody>tr>td .fa.fa-external-link {
+  color: #00b901;
+}
+
+.table>tbody>tr>td .fa.fa-minus-circle {
+  color: #d00808;
+}

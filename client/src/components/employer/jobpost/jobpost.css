@@ -1,0 +1,46 @@
+.post-block, .job-form{
+    width:100%;
+    float: left;
+}
+.post-block {
+    background: #fff;
+    padding: 50px;
+    box-shadow: 1px 0px 10px #00000014;
+}
+.job-post {
+    margin: 40px 0px;
+}
+.upload-file {
+    position: relative;
+}
+.upload-file input#formGridProduct {
+    margin-top: 15px;
+}
+.upload-file input#formGridProduct:focus{
+    box-shadow: none;
+    outline: none;
+}
+.upload-file input#formGridProduct:before {
+    content: "Choose File";
+    background-color: #fe9900;
+    color: #fff;
+    padding: 8px 10px;
+    position: absolute;
+    top: 38px;
+    left: 0;
+    border-radius: 4px;
+    margin: 2px;
+}
+.upload-file input#formGridProduct:hover {
+    cursor: pointer;
+}
+.job-form button {
+    background-color: #fe9900;
+    border-color: #fe9900;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 30px;
+    font-weight: 500;
+    margin-top: 10px;
+    float: right;
+}

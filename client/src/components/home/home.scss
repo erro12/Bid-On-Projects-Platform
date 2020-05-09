@@ -1,0 +1,235 @@
+@import "../../assets/variables.scss";
+
+.home {
+  .ban-img {
+    background-image: url("../../assets/images/banner.jfif");
+    background-size: cover;
+    position: relative;
+    &:before {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(255, 255, 255, 0.12);
+      z-index: 2;
+    }
+  }
+  .banner {
+    width: 100%;
+    float: left;
+    display: table;
+    height: 530px;
+    position: relative;
+    z-index: 9;
+    @media screen and (max-width: $mobile) {
+      height: 335px;
+    }
+    .banner-text {
+      display: table-cell;
+      vertical-align: middle;
+      padding: 0px 27px;
+      position: relative;
+      @media screen and (max-width: $mobile) {
+        padding: 0px 0px;
+      }
+      h1 {
+        font-size: $main-heading-size;
+        font-family: $basic-font;
+        color: $haf-color;
+        font-weight: bold;
+        @media screen and (max-width: $mobile) {
+          font-size: $footer-font-size;
+        }
+        span {
+          color: $primery-color;
+        }
+      }
+      p {
+        color: $haf-color;
+        font-family: $basic-font;
+        font-size: $paragraph-size;
+        word-spacing: 3px;
+        max-width: 50%;
+        margin: 34px 0px 40px;
+        letter-spacing: 1px;
+        @media screen and (max-width: $mobile) {
+          font-size: $menu-font-size;
+          max-width: 100%;
+        }
+      }
+      .employe-button {
+        background-color: $primery-color;
+        border-color: $primery-color;
+        font-size: $paragraph-size;
+        color: $haf-color;
+        padding: 5px 15px;
+        width: 165px;
+        font-weight: 600;
+        &:hover,
+        &:focus,
+        &:active {
+          box-shadow: none;
+        }
+      }
+    }
+  }
+  .second-heading {
+    text-align: center;
+    margin-top: $mr-top;
+    margin-bottom: $mr-bottom;
+    color: $heading-color;
+    @media screen and (max-width: $mobile) {
+      margin-top: $media-quer-mar;
+      margin-bottom: $media-quer-mar;
+    }
+    h2 {
+      font-size: $main-heading-size;
+      font-family: $basic-font;
+      font-weight: bold;
+      margin-bottom: 54px;
+      @media screen and (max-width: $mobile) {
+        font-size: $footer-font-size;
+        margin-bottom: $media-quer-mar;
+      }
+      span {
+        color: $primery-color;
+      }
+    }
+    p {
+      font-size: $paragraph-size;
+      font-family: $basic-font;
+      width: 80%;
+      margin: 0 auto;
+      color: $paragraph-color;
+      font-weight: 600;
+      @media screen and (max-width: $mobile) {
+        font-size: $menu-font-size;
+        width: 100%;
+      }
+    }
+  }
+  .second {
+    text-align: center;
+    margin-bottom: $mr-bottom;
+    @media screen and (max-width: $mobile) {
+      margin-bottom: $media-quer-mar;
+    }
+    .pic {
+      margin-bottom: 40px;
+    }
+    .data {
+      h3,
+      p {
+        color: $heading-color;
+      }
+      h3 {
+        font-family: $basic-font;
+        font-size: $paragraph-size;
+        margin-bottom: 20px;
+        font-weight: 600;
+      }
+      p {
+        font-size: $menu-font-size;
+
+        font-family: $basic-font;
+      }
+    }
+  }
+  .para-image {
+    background-image: url("../../assets/images/paralax.jpg");
+    background-size: cover;
+    position: relative;
+    &:before {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #2020209c;
+      z-index: 2;
+    }
+    .paralax {
+      width: 100%;
+      float: left;
+      .banner {
+        width: 100%;
+        float: left;
+        display: table;
+        height: 425px;
+        position: relative;
+        z-index: 9;
+        @media screen and (max-width: $mobile) {
+          height: 335px;
+        }
+        .banner-inner {
+          text-align: center;
+          display: table-cell;
+          vertical-align: middle;
+          h1 {
+            font-size: $main-heading-size;
+            font-family: $basic-font;
+            color: $haf-color;
+            font-weight: bold;
+            @media screen and (max-width: $mobile) {
+              font-size: $footer-font-size;
+            }
+          }
+          p {
+            color: $haf-color;
+            font-family: "Montserrat", sans-serif;
+            font-size: $global-font-size;
+            max-width: 50%;
+            margin: 0 auto;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            @media screen and (max-width: $mobile) {
+              font-size: $menu-font-size;
+              max-width: 100%;
+            }
+          }
+          .employe-button {
+            background-color: $primery-color;
+            border-color: $primery-color;
+            font-size: $paragraph-size;
+            color: $haf-color;
+            padding: 5px 15px;
+            width: 165px;
+            font-weight: 600;
+            &:hover,
+            &:focus,
+            &:active {
+              box-shadow: none;
+            }
+          }
+        }
+      }
+    }
+  }
+  .bak-col {
+    background-color: $back-color;
+    .Companies {
+      text-align: center;
+      padding: 50px;
+      @media screen and (max-width: $mobile) {
+        padding: 50px 0px;
+      }
+      h2 {
+        font-size: 40px;
+        font-family: $basic-font;
+        color: $heading-color;
+        font-weight: bold;
+        @media screen and (max-width: $mobile) {
+          font-size: $footer-font-size;
+        }
+        span {
+          color: $primery-color;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+h1 {
+  margin: 0;
+  padding: 0;
+}
+html,
+body,
+.edite-profile-section {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+}
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.popup_inner {
+  position: absolute;
+  left: 18%;
+  right: 1%;
+  top: 18%;
+  bottom: 5%;
+  margin: auto;
+  background: white;
+}

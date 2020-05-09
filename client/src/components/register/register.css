@@ -1,0 +1,118 @@
+.register-section {
+    background-color: #f7f7f7;
+    padding: 100px 0px;
+}
+
+.register-form {
+    background: #fff;
+    padding: 80px 30px;
+    max-width: 700px;
+    margin: 0px auto;
+    border-radius: 4px;
+    box-shadow: 1px 0px 10px #00000014;
+}
+
+.register-form h1 {
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    color: #333;
+}
+
+.register-form h1 span {
+    color: #fe9900;
+}
+
+.register-form .rigister-tab {
+    margin-top: 40px;
+}
+
+.register-form .rigister-tab p {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.register-form .rigister-tab .nav-tabs {
+    max-width: 400px;
+    margin: 20px auto;
+    border: none;
+}
+
+.register-form .rigister-tab .nav-tabs a {
+    width: 50%;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    background: #f7f7f7;
+}
+
+.register-form .rigister-tab .nav-tabs a.active {
+    background-color: #fe9900 !important;
+    color: #fff !important;
+}
+
+.register-form .rigister-tab .tab-content {
+    max-width: 600px;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+
+.register-form .rigister-tab .tab-content .form-group {
+    margin-bottom: 3rem;
+}
+
+.register-form .rigister-tab .tab-content .form-group .form-label {
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+.register-form .rigister-tab .tab-content .form-group .form-control {
+    height: auto;
+    padding: 15px 20px;
+}
+
+.register-form .rigister-tab .tab-content .form-group .form-control:focus {
+    box-shadow: none;
+    border-color: #fe9900;
+}
+
+.register-form .rigister-tab .tab-content .dis-show {
+    display: flex;
+}
+
+.register-form .rigister-tab .tab-content .dis-show .form-label {
+    margin-left: 9px;
+    font-weight: 400;
+}
+
+.register-form .rigister-tab .tab-content .dis-show .form-label span {
+    color: #fe9900;
+}
+
+
+.register-form .rigister-tab .tab-content .signup-btn {
+    background-color: #fe9900;
+    border-color: #fe9900;
+    padding: 12px 40px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.register-form .rigister-tab .tab-content .signup-btn:focus {
+    box-shadow: none;
+}
+
+.terms-link {
+    color: #fe9900;
+    text-decoration: underline;
+}
+
+.terms-link:hover{
+    color: #333;
+}

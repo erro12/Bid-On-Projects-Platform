@@ -1,0 +1,347 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css";
+
+/********* Home Banner *******/
+.banner-img {
+  background-image: url("../../assets/images/banner.jpg");
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.banner-img::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.05);
+  z-index: 2;
+}
+
+.banner {
+  width: 100%;
+  position: relative;
+  z-index: 9;
+  padding: 150px 0px;
+}
+
+.banner .banner-text {
+  position: relative;
+}
+
+.banner .banner-text h1 {
+  font-size: 40px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.banner .banner-text h1 span {
+  color: #fe9900;
+}
+
+.banner .banner-text p {
+  color: #fff;
+  font-size: 18px;
+  max-width: 650px;
+  margin: 40px 0px;
+  line-height: 1.8;
+  font-weight: 400;
+}
+
+.banner .banner-text .employe-button {
+  background-color: #fe9900;
+  border-color: #fe9900;
+  font-size: 18px;
+  color: #fff;
+  padding: 16px 35px;
+  margin-right: 12px;
+  border-radius: 15px;
+  font-weight: 500;
+}
+
+.banner .banner-text .employe-button:hover,
+.banner .banner-text .employe-button:focus,
+.banner .banner-text .employe-button:active {
+  box-shadow: none;
+}
+
+/********* How It Works *******/
+
+.how-it-works {
+  padding: 80px 0px;
+}
+
+.page-heading {
+  text-align: center;
+}
+
+.page-heading h2 {
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.page-heading h2 span {
+  color: #fe9900;
+}
+
+.page-heading p {
+  font-size: 18px;
+  max-width: 900px;
+  margin: 0 auto;
+  color: #333;
+  font-weight: 500;
+  line-height: 1.8;
+}
+
+.intro-video {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.how-it-work-box {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.how-it-work-box .pic {
+  margin-bottom: 40px;
+}
+
+.how-it-work-box .how-it-work-box-content h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+.how-it-work-box .how-it-work-box-content p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.8;
+}
+
+.how-it-work-box i {
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  width: 94px;
+  height: 94px;
+  line-height: 94px;
+  font-size: 38px;
+  border: 1px solid #fe9900;
+  color: #fe9900;
+  border-radius: 100%;
+  z-index: 11;
+  transition: 0.3s ease-in-out;
+  transform: translate3d(0, 0, 0) scale(1);
+  backface-visibility: hidden;
+}
+
+.how-it-work-box:hover i {
+  transform: translate3d(0, 0, 0) scale(1.21);
+}
+
+/********* Call to action *******/
+
+.call-to-action {
+  background-image: url("../../assets/images/paralax.jpg");
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  padding: 80px 0px;
+  text-align: center;
+}
+
+.call-to-action:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.35);
+  z-index: 9;
+}
+
+.para-image {
+  width: 100%;
+  position: relative;
+  z-index: 99;
+}
+
+.para-image h1 {
+  font-size: 35px;
+  color: #fff;
+  font-weight: 600;
+  margin: 0;
+}
+
+.para-image p {
+  color: #fff;
+  font-size: 16px;
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 30px 0px;
+  line-height: 1.8;
+}
+
+.para-image .employe-button {
+  background-color: #fe9900;
+  border-color: #fe9900;
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 40px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.para-image .employe-button:hover,
+.para-image .employe-button:focus,
+.para-image .employe-button:active {
+  box-shadow: none;
+}
+
+/********* Our Companies *******/
+
+.our-companies {
+  background-color: #ffffff;
+  padding: 80px 0px;
+}
+.companies-container {
+  padding-top: 50px;
+}
+.slick-dots {
+  bottom: -45px !important;
+}
+
+.slick-slide img {
+  margin: 0px auto;
+}
+
+.companies {
+  text-align: center;
+}
+
+.companies h2 {
+  font-size: 35px;
+  color: #484746;
+  font-weight: 600;
+}
+
+.companies h2 span {
+  color: #fe9900;
+}
+
+.employe-button {
+  transition: all 0.5s;
+}
+.btn-primary:not(:disabled):not(.disabled):active {
+  background-color: #fe9900;
+  border-color: #fe9900;
+}
+
+.employe-button:focus {
+  outline: none;
+}
+
+/***** Blog *****/
+
+.latest-blogs {
+  background-color: #ffffff;
+  padding: 80px 0px;
+  text-align: center;
+}
+
+.latest-blogs h2 {
+  font-size: 35px;
+  color: #484746;
+  font-weight: 600;
+  padding-bottom: 50px;
+}
+
+.latest-blogs h2 span {
+  color: #fe9900;
+}
+
+.contact-us {
+  background-color: #ffffff;
+  padding: 80px 0px;
+  text-align: center;
+}
+
+.contact-us h2 {
+  font-size: 35px;
+  color: #484746;
+  font-weight: 600;
+  padding-bottom: 50px;
+}
+
+.contact-us h2 span {
+  color: #fe9900;
+}
+
+.more-blogs {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.more-blogs a {
+  background-color: #fe9900;
+  border-color: #fe9900;
+  font-size: 14px;
+  color: #fff;
+  padding: 12px 30px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.more-blogs a:hover,
+.more-blogs a:focus {
+  background-color: #fe9900;
+  border-color: #fe9900;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.latest-blogs .card-subtitle {
+  display: block;
+  padding-top: 20px;
+}
+
+.latest-blogs .card-title {
+  font-size: 22px;
+  font-weight: 600;
+  padding-top: 20px;
+}
+
+.latest-blogs .card {
+  border: none;
+}
+
+.latest-blogs .card-body {
+  border: 1px solid #dadada;
+}
+
+.latest-blogs .card-text {
+  display: block;
+  font-size: 14px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.latest-blogs .card-link {
+  font-size: 13px;
+  text-decoration: underline;
+  color: #fe9900;
+}

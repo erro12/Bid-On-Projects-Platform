@@ -1,0 +1,31 @@
+.dashboard-content .card {
+    margin-bottom: 30px;
+    border: none;
+    box-shadow: 0px 10px 20px #00000014;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#titlebar h1 span {
+    color: #fe9900;
+}
+
+#titlebar h1 {
+    padding-bottom: 50px;
+    font-weight: 600;
+}
+
+.card-title h2 {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.dashboard-content .table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+    border-top: none;
+}
+
+.dashboard-content .table th, .dashboard-content .table td {
+    padding: 15px 20px;
+}

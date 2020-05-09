@@ -1,0 +1,53 @@
+@import "../../assets/variables.scss";
+.footer-container{
+ background-color: $footer-background;
+ padding: 35px 25px 25px 25px;
+ .footer-one{
+    img {
+        margin-bottom: 20px;
+    }
+     p{
+        font-size:$menu-font-size;
+        font-family: $basic-font;
+        color:$footer-text;
+        max-width: 80%;
+    }
+ }
+ .footer-two, .footer-three{
+     h3{
+        color:$footer-heading;
+        font-size: $footer-font-size;
+        margin-top: 5px;
+        margin-bottom: 25px;
+     }
+     ul{
+        padding-left: 0px;
+         li{
+             list-style-type: none;
+             a{
+                 color:$footer-text;
+                 font-size: $menu-font-size;
+                 &:hover{
+                    color:$footer-text;
+                    cursor: pointer;
+                 }
+             }
+         }
+     }
+ }
+ .copy-right {
+    text-align: center;
+    border-top: 1px solid $border;
+    margin-top: 40px;
+    font-family: $basic-font;
+    p {
+        color: $footer-text;
+        font-size: 14px;
+        padding-top: 25px;
+        span{
+            font-weight: 600; 
+            color:$haf-color;          
+        }
+    }
+}
+}
